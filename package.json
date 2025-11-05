@@ -1,0 +1,31 @@
+{
+  "name": "colinjohnston-v2026",
+  "version": "0.1.0",
+  "description": "Colin Johnston Website - 2026",
+  "scripts": {
+    "buildjs": "esbuild src/js/*.js --bundle --minify --outfile=public/assets/js/app.js",
+    "watchjs": "esbuild src/js/*.js --bundle --sourcemap=inline --watch --outfile=public/assets/js/app.js",
+    "buildcss": "postcss src/css/*.css --dir public/assets/css --no-map --verbose",
+    "watchcss": "postcss src/css/*.css --dir public/assets/css --watch --verbose",
+    "staticassets": "concurrently 'esbuild src/images/**/* --loader:.png=copy --loader:.jpg=copy --loader:.svg=copy --outdir=public/assets/images' 'esbuild src/fonts/**/* --loader:.woff2=copy --outdir=public/assets/fonts'",
+    "browsersync": "browser-sync start --proxy 'colinjohnston-v2026.local' --https --files 'public/assets/css/main.css' 'public/assets/js/app.js' 'site/**/*.php' 'site/**/**/*.php' --no-open",
+    "watch": "concurrently 'npm run watchjs' 'npm run watchcss' 'npm run browsersync'",
+    "build": "concurrently 'npm run buildjs' 'npm run buildcss' 'npm run staticassets'"
+  },
+  "author": "",
+  "license": "",
+  "packageManager": "yarn@4.9.1",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.1.2",
+    "cssnano": "^7.0.6",
+    "esbuild": "^0.25.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.0",
+    "postcss-import-ext-glob": "^2.1.1",
+    "postcss-nesting": "^13.0.1"
+  }
+}
