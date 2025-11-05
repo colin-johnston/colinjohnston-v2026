@@ -1,0 +1,13 @@
+@import "global/reset";
+@import "global/fonts";
+@import "global/variables";
+@import "global/global-styles.css";
+
+@import-glob 'blocks/*.css';
+@import-glob 'compositions/*.css';
+@import-glob 'utilities/*.css';
+
+/* Test */
+h1 {
+  color: #001122;
+}
