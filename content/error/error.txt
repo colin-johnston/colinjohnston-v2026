@@ -1,8 +1,8 @@
-Title: Error
+Title: 404
 
 ----
 
-Text: This page cannot be found 😱
+Text: This page cannot be found
 
 ----
 
