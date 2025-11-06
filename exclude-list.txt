@@ -1,0 +1,13 @@
+exclude-list.txt
+.git
+.gitignore
+.gitmodules
+.DS_Store
+*/.DS_Store
+node_modules
+.htaccess
+.env
+./src/
+robots.txt
+storage/
+favicon.ico
