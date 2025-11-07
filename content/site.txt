@@ -1,1 +1,50 @@
 Title: Colin Johnston | Designer | San Francisco
+
+----
+
+Redirects:
+
+-
+  fromuri: /notes/set-up-node-14-project-m1-big-sur
+  touri: 'https://2022.colinjohnston.com/notes/set-up-node-14-project-m1-big-sur'
+  code: _301
+-
+  fromuri: /notes/my-first-rss-feed
+  touri: 'https://2022.colinjohnston.com/notes/my-first-rss-feed'
+  code: _301
+-
+  fromuri: /journal/fear-of-writing
+  touri: 'https://2022.colinjohnston.com/journal/fear-of-writing'
+  code: _301
+-
+  fromuri: /projects/rollbar-account-dashboard
+  touri: 'https://2022.colinjohnston.com/projects/rollbar-account-dashboard'
+  code: _301
+-
+  fromuri: /projects/solono-ci-session-view
+  touri: 'https://2022.colinjohnston.com/projects/solono-ci-session-view'
+  code: _301
+-
+  fromuri: /projects/paul-saffo-website
+  touri: 'https://2022.colinjohnston.com/projects/paul-saffo-website'
+  code: _301
+-
+  fromuri: /projects/paul-saffo-website
+  touri: 'https://2022.colinjohnston.com/projects/paul-saffo-website'
+  code: _301
+-
+  fromuri: /projects
+  touri: 'https://2022.colinjohnston.com/projects'
+  code: _301
+-
+  fromuri: /journal
+  touri: 'https://2022.colinjohnston.com/journal'
+  code: _301
+-
+  fromuri: /notes
+  touri: 'https://2022.colinjohnston.com/notes'
+  code: _301
+-
+  fromuri: /contact
+  touri: 'https://2022.colinjohnston.com/contact'
+  code: _301
