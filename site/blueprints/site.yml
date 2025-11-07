@@ -32,3 +32,8 @@ columns:
           - about
           - home
           - default
+  # bnomei/kirby3-redirect plugin
+  - width: 2/2
+    sections:
+      redirects:
+        extends: plugin-redirects3xx
