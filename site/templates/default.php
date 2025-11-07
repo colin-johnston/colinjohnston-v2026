@@ -18,13 +18,13 @@
   More about templates: https://getkirby.com/docs/guide/templates/basics
 */
 ?>
-<?php snippet('header') ?>
+<?php snippet('header-0') ?>
 
 <article>
-  <h1 class="h1"><?= $page->title()->esc() ?></h1>
+  <h2 class="h1"><?= $page->title()->esc() ?></h2>
   <div class="text">
     <?= $page->text()->kt() ?>
   </div>
 </article>
 
-<?php snippet('footer') ?>
+<?php snippet('footer-0') ?>
