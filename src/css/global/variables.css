@@ -17,12 +17,24 @@
   /* TEMP Andy Bell's Color Pallete  */
   --color-dark: #252525;
   --color-light: #f9f9f9;
-  --color-pale: #a1a8b3;
-  --color-mid: #666;
+  --color-pale: #9199a4;
+  --color-mid: #5b6470;
   --color-mid-glare: #b3b3b3;
   --color-primary: #089ce7;
   --color-primary-shade: #167caf;
   --color-primary-glare: #83c7ea;
+  /* CSS Variables generated from Kigen.design */
+  --brand-50: #edf1f6;
+  --brand-100: #d4ddeb;
+  --brand-200: #acbfd9;
+  --brand-300: #88a5c9;
+  --brand-400: #718cae;
+  --brand-500: #5e7591;
+  --brand-600: #4c5f77;
+  --brand-700: #3e4e62;
+  --brand-800: #2b3746;
+  --brand-900: #171e28;
+  --brand-950: #0c1118;
 
   /* TEMP Andy Bell's Modular Scale - create custom here https://utopia.fyi/space/calculator/*/
   --space-zero: clamp(0rem, -0.02rem + 0.11vw, 0.0625rem);
